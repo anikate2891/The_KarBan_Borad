@@ -99,8 +99,8 @@ modalbg.addEventListener("click", () => {
 });
 
 addNewTaskBtn.addEventListener("click", () => {
-  const title = document.querySelector("#task-input").value;
-  const desc = document.querySelector("#task-textarea").value;
+  let title = document.querySelector("#task-input").value;
+  let desc = document.querySelector("#task-textarea").value;
 
   if (!title) return;
 

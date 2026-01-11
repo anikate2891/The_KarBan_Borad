@@ -55,6 +55,8 @@ nav{
     align-items: center;
     padding: var(--padding-nav);
     border-bottom: 1px solid #555;
+    position: sticky;
+    top: 0;
 }
 
 button{

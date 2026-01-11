@@ -109,6 +109,9 @@ addNewTaskBtn.addEventListener("click", () => {
 
   updateCounts();
   modal.classList.remove("modal-active");
+
+  title = document.querySelector("#task-input").value = '';
+  desc = document.querySelector("#task-textarea").value = '';
 });
 
 /* -------------------- DRAG TARGETS -------------------- */
